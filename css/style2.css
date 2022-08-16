@@ -1,0 +1,312 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Noto Sans', sans-serif;
+}
+.content{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows:100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;
+}
+
+.d1{
+    grid-column-start: 1;
+    grid-column-end:7;
+    grid-row-start:1 ;
+    grid-row-end: 4;
+    background-image: url(https://www.guiadealemania.com/wp-content/uploads/2011/01/Bandera-de-Alemania.png);
+    background-size: contain;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d2{
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start:5 ;
+    grid-row-end: 8;
+    background-color: rgb(255, 255, 255);
+}
+.d2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.d3{
+    grid-column-start: 3;
+    grid-column-end:5;
+    grid-row-start:5;
+    grid-row-end: 8;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.d3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.d4{
+    grid-column-start: 5;
+    grid-column-end:7;
+    grid-row-start:5 ;
+    grid-row-end: 8;
+    background-color: rgb(116, 138, 138);
+}
+.d4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.d5{
+    grid-column-start: 1;
+    grid-column-end:7;
+    grid-row-start:4 ;
+    grid-row-end: 5;
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: larger;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.d6{
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start:8 ;
+    grid-row-end: 10;
+    background-color: rgb(169, 164, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    
+}
+.d7{
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start:8 ;
+    grid-row-end: 10;
+    background-color: rgb(169, 164, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.d8{ 
+    grid-column-start: 3;
+    grid-column-end:4;
+    grid-row-start:8 ;
+    grid-row-end: 10;
+    background-color: rgb(169, 164, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.d9{
+    grid-column-start: 4;
+    grid-column-end:5;
+    grid-row-start:8 ;
+    grid-row-end: 10;
+    background-color: rgb(169, 164, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.d10{
+    grid-column-start: 5;
+    grid-column-end:6;
+    grid-row-start:8 ;
+    grid-row-end: 10;
+    background-color: rgb(169, 164, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.d11{
+    grid-column-start: 6;
+    grid-column-end:7;
+    grid-row-start:8 ;
+    grid-row-end: 10;
+    background-color: rgb(169, 164, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.d12{
+    grid-column-start: 1;
+    grid-column-end:7;
+    grid-row-start:10;
+    grid-row-end: 11;
+    background-color: rgb(255, 255, 255);
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d13{
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start:11;
+    grid-row-end: 13;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding: 5px;
+    border: 2px solid black; 
+}
+.d13 img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.d14{
+    grid-column-start: 2;
+    grid-column-end:6;
+    grid-row-start:13;
+    grid-row-end: 15;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.d15{
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start:11;
+    grid-row-end: 13;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding: 5px;
+    border: 2px solid black; 
+}
+.d15 img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.d16{
+    grid-column-start: 3;
+    grid-column-end:4;
+    grid-row-start:11;
+    grid-row-end: 13;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding: 5px;
+    border: 2px solid black; 
+}
+.d16 img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.d17{
+    grid-column-start: 4;
+    grid-column-end:5;
+    grid-row-start:11;
+    grid-row-end: 13;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding: 5px;
+    border: 2px solid black; 
+}
+
+.d17 img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.d18{
+    grid-column-start: 5;
+    grid-column-end:6;
+    grid-row-start:11;
+    grid-row-end: 13;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding: 5px;
+    border: 2px solid black; 
+
+}
+.d18 img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.d19{
+    grid-column-start: 6;
+    grid-column-end:7;
+    grid-row-start:11;
+    grid-row-end: 13;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding: 5px;
+    border: 2px solid black; 
+}
+.d19 img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+
+}
+
+.d20{
+    grid-column-start: 2;
+    grid-column-end:6;
+    grid-row-start:15;
+    grid-row-end: 16;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+    
+.ico{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ico img{
+    width: 6%
+}
